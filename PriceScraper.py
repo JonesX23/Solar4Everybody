@@ -22,7 +22,7 @@ table1 = soup1.find("meta", attrs={'property': 'og:price:amount'})
 
 rows1 = table1.prettify()
 Preis1 = re.findall('[0-9]+', rows1) # Zahl auslesen
-print(rows1)
+#print(rows1)
 print(f'Der Preis von {Produkt1} beträgt {Preis1[0]} €')
 
 # Seite 2 Balkonkraftwerk-vertrieb.de
