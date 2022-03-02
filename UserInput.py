@@ -93,6 +93,8 @@ def gui_version_1():
             st.write(f'Der Preis von {Produkt1} beträgt {Preis1[0]} €')
 
 
+### Wenn man mit dem Preis einverstanden ist, dann öffnet sich links eine Seitenleiste mit "st.sidebar".
+## In dieser Seitenleiste dann die Äquivalente aufzeigen.
 
 
 
