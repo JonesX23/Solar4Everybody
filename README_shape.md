@@ -27,8 +27,6 @@ Als Erklärung: Anhand des Debug Modus kann ich die Datenstruktur von der Shape 
 3. Ich bekomme eine Visualisierung (Plot) ausgespuckt und den kann ich mir abspeichern 
 
 
-
-
 #good to know
 
 1. Oben rechts bei Pycharm kann ich die Datei im Konfigurator auswählen, die ich rechnen will mit play oder dem Käfer. :) Kann hier auch einfach immer noch Dateien hinzufügen mit dem Plus Symbol 
