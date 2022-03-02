@@ -27,7 +27,14 @@ Als Erklärung: Anhand des Debug Modus kann ich die Datenstruktur von der Shape 
 3. Ich bekomme eine Visualisierung (Plot) ausgespuckt und den kann ich mir abspeichern 
 
 
-
+## WICHTIG IM MÄRZ
+###Wenn ich die Building ID und Eignung haben will, dann muss ich den folgenden Code in die Main setzen:
+shapeFile2Load = "Solarpotenzial Dachseiten/Solarpotenzial Dachseiten.shp"
+    shape_input = loadShapeFileWithPyShp(shapeFile2Load)
+    #printTheShapeRecords(shape_input)
+    #whichrooftype(shape_input)
+    bid(shape_input)
+    effroots(shape_input)
 
 #good to know
 
