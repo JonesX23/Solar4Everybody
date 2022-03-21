@@ -1,0 +1,10 @@
+requests
+BeautifulSoup
+re
+numpy as np
+matplotlib.pyplot as plt
+time
+random
+requests
+streamlit_lottie
+pandas
