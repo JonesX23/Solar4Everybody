@@ -44,7 +44,7 @@ def gui_version_1():
         st.write("""  # 2. Schritt""")
         VerfügbarerPLatz = st.selectbox(
             'Wir haben für dich ein Balkonkraftwerk herausgesucht.'
-            'Das Modul hat die folgenden Maße:  1755 x 1038x 35 mm.'
+            ' Das Modul hat die folgenden Maße:  1755 x 1038 x 35 mm.'
 
             ' Hast du genügend Platz dieses Modul an deinem Balkon anzubringen?',
             ('Ja', 'Nein'), index=1)
