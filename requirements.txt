@@ -1,5 +1,5 @@
 requests
-bs4
+beautifulsoup4
 re
 numpy
 matplotlib.pyplot
