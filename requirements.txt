@@ -1,7 +1,7 @@
 requests
 beautifulsoup4
 numpy
-matplotlib.pyplot
+matplotlib
 timelt
 random
 requests
