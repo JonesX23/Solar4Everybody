@@ -25,7 +25,7 @@ def gui_version_1():
         pass
     with col2:
         kompassgrad = st.number_input(
-            'In diesem Schritt wollen wir überprüfen, zu welcher Seite (Nord,Ost,Süd oder West) dein Balkon liegt. Nutze hierfür am besten dein Handy und eine geeignete Kompass App. Richte dein Handy so aus, dass du die Himmelsrichtung deines Balkons ablesen kannst.'''
+            'In diesem Schritt wollen wir überprüfen, zu welcher Seite (Nord, Ost, Süd oder West) dein Balkon liegt. Nutze hierfür am besten dein Handy und eine geeignete Kompass App. Richte dein Handy so aus, dass du die Himmelsrichtung deines Balkons ablesen kannst.'''
             ' Welche Gradzahl zeigt dein Handy an? Bitte trage diese Zahl in das Feld ein.', min_value=0, max_value=360, value=0)
         if 360 >= kompassgrad >= 0:
             if 225 >= kompassgrad >= 125:
