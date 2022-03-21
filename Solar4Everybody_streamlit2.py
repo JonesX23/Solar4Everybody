@@ -15,7 +15,7 @@ def gui_version_1():
     st.set_page_config(layout="wide")
     st.title("Solar4Everybody")
     st.subheader(
-        "Du interessierst dich dafür, ob sich ein Balkonkraftwerk auf deinem Balkon lohnt? Super, dann bist du hier genau richtig. Wir leiten dich Schritt für Schritt durch:")
+        "Du interessierst dich dafür, ob sich ein Balkonkraftwerk auf deinem Balkon lohnt? Super, dann bist Du hier genau richtig. Wir leiten dich Schritt für Schritt durch:")
 
     # 1. Schritt: Liegt der Balkon zur Südseite?
     st.write("""  # 1. Schritt""")
@@ -35,7 +35,7 @@ def gui_version_1():
             else:
                 st.write('Mh, dein Balkon ist nicht so gut geeignet für ein Balkonkraftwerk')
         else:
-            st.write('Oh, bist du dir sicher, dass du die richtige Gradzahl eingegeben hast?')
+            st.write('Oh, bist Du dir sicher, dass Du die richtige Gradzahl eingegeben hast?')
 
     # 2. Schritt: Platz auf dem Balkon
 
@@ -46,7 +46,7 @@ def gui_version_1():
             'Wir haben für dich ein Balkonkraftwerk herausgesucht.'
             ' Das Modul hat die folgenden Maße:  1755 x 1038 x 35 mm.'
 
-            ' Hast du genügend Platz dieses Modul an deinem Balkon anzubringen?',
+            ' Hast Du genügend Platz dieses Modul an deinem Balkon anzubringen?',
             ('Ja', 'Nein'), index=1)
         if VerfügbarerPLatz == 'Ja':
             st.write('Wunderbar, dann geh direkt zu Schritt 3!')
@@ -177,7 +177,7 @@ def gui_version_1():
                     # Als Beispielwert wird eine Stromgenerierung von 100 kWh pro Jahr genommen.
                     generierung_total = int(watt_integer)
                     print("Super! Dein Balkonmodul würde jährlich ca.",generierung_total, "kWh erzeugen!")
-                    print("Um dir zu veranschaulichen, was du mit deinem selbst produzierten Strom alles machen kannst, haben wir für dich ein paar Beispiele:")
+                    print("Um dir zu veranschaulichen, was Du mit deinem selbst produzierten Strom alles machen kannst, haben wir für dich ein paar Beispiele:")
 
                     # Um die Vergleiche der Haushaltsgeräte möglichst greifbar zu gestalten, wird die Stromgenerierung (alle in kWh) auf verschiedene Ebenen heruntergebrochen
                     generierung_jahr = generierung_total
@@ -223,7 +223,7 @@ def gui_version_1():
 
                     #TV (0,1 kWh pro Stunde)
                     nutzung_tv = round(generierung_tag/0.1)
-                    print("\nTäglich könntest Du ca.", nutzung_tv,"Stunden mithilfe Deiner Solarenergie fernsehen!")
+                    print("\nTäglich könntest du ca.", nutzung_tv,"Stunden mithilfe Deiner Solarenergie fernsehen!")
 
 
                     #st.set_page_config(page_title="Haushaltsgeraete", page_icon=":+1:", layout="wide")
