@@ -61,7 +61,7 @@ def gui_version_1():
                 st.write("""  # 3. Schritt""")
                 st.write(
                     "Gut, dann wollen wir dir einmal das Balkonkraftwerk vorstellen, welches wir für dich herausgesucht haben."
-                    "Dieses Modul gilt als Beispiel für ein Balkonkraftwerk made in Germany."
+                    " Dieses Modul gilt als Beispiel für ein Balkonkraftwerk made in Germany."
                     " Disclaimer: Nur ein Beispielmodul #nichtgesponsert")
                 URL1 = "https://herr-strom.de/p/balkonkraftwerk-solarfabrik-360-plus-alustaender"
                 Produkt1 = "Balkonkraftwerk SolarFabrik 360"
