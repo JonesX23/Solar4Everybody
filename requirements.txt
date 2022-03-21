@@ -2,7 +2,6 @@ requests
 beautifulsoup4
 numpy
 matplotlib
-random
 requests
 streamlit_lottie
 pandas
